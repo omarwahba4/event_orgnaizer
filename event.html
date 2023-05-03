@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event organizer</title>
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#description">Job Description</a></li>
+            <li><a href="#salary">Price </a></li>
+            <li><a href="#contactus">Contact us</a></li>
+            
+        </ul>
+    </nav>
+
+    
+        <div class="information" id="home">
+            <h1>Event Organizer</h1>
+            <img src="photos/frame.jpg" alt="not load">
+            <img src="photos/birthday.jpg" alt="not load">
+            <img src="photos/frame.jpg" alt="not load">
+            <img src="photos/engagment.jpg" alt="not load">
+            <h3>Event organizer is the website that help to organize and decorate any event like (birthday , engagment , wedding) in any place </h3>
+        </div>
+    
+        <div class="description" id="description">
+            <img src="photos/flower2 - Copy (2).jpg" alt="not load">
+            <h2>About Job Description</h2>
+            <img src="photos/flower2.jpg" alt="not load">
+            <p>Event Planners do everything from choosing locations to hiring caterers and entertainment to ensure that all moving parts come together perfectly. In addition, they are charged with creating experiences and bringing visions into reality.</p>
+            <p id="show" style="display: none;">The Event Planner is responsible for coordinating all of the moving parts involved in ensuring events go smoothly, including choosing venues, catering services, and hiring performers. They plan and coordinate all the details before the event and handle day-of logistics.</p>
+            <button class="btn">Read More</button>
+        </div>
+
+        
+        <div class="salary" id="salary">
+            <h2 style="margin-bottom: 15px;">Range price of each event</h2>
+            <div class="cards">
+                <div class="one">
+                    <p>Engagment Event</p>
+                    <img src="photos/engagment.jpg" alt="">
+                    
+                    <pre><span>price range:</span><br> 10,000LE:15,000LE</pre>
+                </div>
+                <div class="one">
+                    <p>Bride Room</p>
+                    <img src="photos/bride room.webp" alt="">
+                    <pre><span>price range:</span> <br>3000LE:8000LE</pre>
+                </div>
+                <div class="one">
+                    <p>Birthday Event</p>
+                    <img src="photos/birthday2.jpg" alt="">
+                    <pre><span>price range:</span><br> 1500LE:5000LE</pre>
+                </div>
+            </div>
+        </div>
+        <div class="contactus" id="contactus">
+            <p><span>Quote:</span><br>"Happiness of our clients is our source of passion to continue and develop our work" </p>
+            <div class="call">
+                <p>Contact Us:</p>
+                <form method="post">
+                    <input type="text" name="name"  placeholder="Name" required>
+                    <br>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <br>
+                    <input type="tel" name="phone" placeholder="Your Mobile Number" required>
+                    <br>
+                    <label for="date">Your Event Date:</label>
+                    <br>
+                    <input type="date" name="date" id="date" required >
+                    <br>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+<script src="javascript/jquery-3.6.3.min.js"></script>
+<script src="javascript/event.js"></script>
+    
+</body>
+</html>
